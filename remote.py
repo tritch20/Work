@@ -6,7 +6,7 @@ app = Flask(__name__)
 def run_script():
     # Your Python script logic here
     print("Hello World")
-    return "Script executed successfully!", 200
+    return "Hello World"
 
 if __name__ == '__main__':
     app.run(debug=True)
